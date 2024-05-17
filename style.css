@@ -1,0 +1,55 @@
+body {
+  background: #9C835F !important;
+
+}
+
+.player .choice img  {
+  cursor: pointer;
+}
+
+.choice {
+  min-width: 100px;
+  text-align: center;
+  /* border: 1px solid black; */
+
+}
+
+
+.versus h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  min-width: 80px;
+  
+}
+
+.active {
+  background-color: #C4C4C4;
+  ;
+  
+  border-radius: 5px 5px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.result {
+  
+  background-color: #4C9654;
+  color: white;
+  border-radius: 5px 5px;
+  text-align: center;
+  font-size: 1.2em;
+  border: 1px solid black;
+  rotate: -30deg;
+}
+
+#refresh {
+  cursor: pointer;
+}
+
+.result-draw {
+  background-color: #035B0C !important;
+
+}
+
